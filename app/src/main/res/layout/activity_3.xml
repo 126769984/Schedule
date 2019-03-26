@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageBg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:onClick="clickBack3"
+        android:id="@+id/imageBack3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:onClick="clickNext3"
+        android:id="@+id/imageNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:onClick="clickBgBack3"
+        android:id="@+id/imageBgback3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageFuncMemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageNext3"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imageBack3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987"
+        app:srcCompat="@drawable/bt1" />
+
+    <TextView
+        android:id="@+id/textBtMemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFuncMemo"
+        app:layout_constraintEnd_toEndOf="@+id/imageFuncMemo"
+        app:layout_constraintStart_toStartOf="@+id/imageFuncMemo"
+        app:layout_constraintTop_toTopOf="@+id/imageFuncMemo" />
+
+    <ImageView
+
+        android:id="@+id/imagePanel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/panel2" />
+
+    <TextView
+        android:id="@+id/textProj1"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/imagePanel3"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Projects"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text=" Date"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageBg3"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <TextView
+
+        android:id="@+id/textDaysProj1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="----/-/--"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj1"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textProj1"
+        app:layout_constraintTop_toTopOf="@+id/textProj1"
+        app:layout_constraintVertical_bias="0.658" />
+
+    <ImageView
+        android:onClick="clickAddProj1"
+        android:id="@+id/imageAddProj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj1"
+        app:layout_constraintEnd_toStartOf="@+id/textProj1"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj1"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageView
+        android:id="@+id/imageDelProj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="clickDelProj1"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj1"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textDaysProj1"
+        app:layout_constraintTop_toTopOf="@+id/textProj1"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:onClick="clickAddProj2"
+        android:id="@+id/imageAddProj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj2"
+        app:layout_constraintEnd_toStartOf="@+id/textProj2"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj2"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textProj2"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toStartOf="@+id/textDaysProj2"
+        app:layout_constraintTop_toTopOf="@+id/imagePanel3"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <TextView
+        android:id="@+id/textDaysProj2"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="----/-/--"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj2"
+        app:layout_constraintEnd_toStartOf="@+id/imageDelProj2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj2"
+        app:layout_constraintVertical_bias="0.658" />
+
+    <ImageView
+        android:onClick="clickDelProj2"
+        android:id="@+id/imageDelProj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj2"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj2"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:onClick="clickAddProj3"
+        android:id="@+id/imageAddProj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj3"
+        app:layout_constraintEnd_toStartOf="@+id/textProj3"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj3"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textProj3"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/imagePanel3"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <TextView
+        android:id="@+id/textDaysProj3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="----/-/--"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj3"
+        app:layout_constraintEnd_toStartOf="@+id/imageDelProj3"
+        app:layout_constraintStart_toEndOf="@+id/textProj3"
+        app:layout_constraintTop_toTopOf="@+id/textProj3" />
+
+    <ImageView
+        android:onClick="clickDelProj3"
+        android:id="@+id/imageDelProj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj3"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textProj3"
+        app:layout_constraintTop_toTopOf="@+id/textProj3"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:onClick="clickAddProj4"
+        android:id="@+id/imageAddProj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj4"
+        app:layout_constraintEnd_toStartOf="@+id/textProj4"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj4"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textProj4"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePanel3"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/imagePanel3"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/textDaysProj4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="----/-/--"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj4"
+        app:layout_constraintEnd_toStartOf="@+id/imageDelProj4"
+        app:layout_constraintStart_toEndOf="@+id/textProj4"
+        app:layout_constraintTop_toTopOf="@+id/textProj4" />
+
+    <ImageView
+        android:onClick="clickDelProj4"
+        android:id="@+id/imageDelProj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textProj4"
+        app:layout_constraintEnd_toEndOf="@+id/imagePanel3"
+        app:layout_constraintTop_toTopOf="@+id/textProj4"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
